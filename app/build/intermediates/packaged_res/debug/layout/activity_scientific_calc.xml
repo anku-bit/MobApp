@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark" android:orientation="vertical" android:padding="8dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="🔬 Scientific Calculator" android:textColor="@color/white"
+        android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <EditText android:id="@+id/etDisplay" android:layout_width="match_parent"
+        android:layout_height="70dp" android:background="@drawable/bg_card"
+        android:focusable="false" android:gravity="end|center_vertical"
+        android:textColor="@color/white" android:textSize="24sp" android:padding="12dp"
+        android:hint="0" android:textColorHint="@color/grey_hint" android:layout_marginBottom="8dp"/>
+    <!-- Scientific functions row -->
+    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="5">
+        <Button style="@style/CalcBtn" android:text="sin"  android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="cos"  android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="tan"  android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="log"  android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="π"    android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="√"    android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="x²"   android:onClick="onFunc" android:backgroundTint="#3A2D6D" android:textSize="13sp"/>
+        <Button style="@style/CalcBtn" android:text="C"    android:onClick="onClear" android:backgroundTint="#E74C3C"/>
+        <Button style="@style/CalcBtn" android:text="÷"    android:onClick="onOp" android:backgroundTint="#8E6CF0"/>
+        <Button style="@style/CalcBtn" android:text="×"    android:onClick="onOp" android:backgroundTint="#8E6CF0"/>
+    </GridLayout>
+    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="4">
+        <Button style="@style/CalcBtn" android:text="7"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="8"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="9"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="-"   android:onClick="onOp" android:backgroundTint="#8E6CF0"/>
+        <Button style="@style/CalcBtn" android:text="4"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="5"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="6"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="+"   android:onClick="onOp" android:backgroundTint="#8E6CF0"/>
+        <Button style="@style/CalcBtn" android:text="1"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="2"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="3"   android:onClick="onDigit"/>
+        <Button style="@style/CalcBtn" android:text="="   android:onClick="onEquals" android:backgroundTint="#8E6CF0"/>
+        <Button style="@style/CalcBtn" android:text="0"   android:onClick="onDigit" android:layout_columnSpan="2" android:layout_width="152dp"/>
+        <Button style="@style/CalcBtn" android:text="."   android:onClick="onDigit"/>
+    </GridLayout>
+    <Button android:id="@+id/btnBack" android:layout_width="match_parent" android:layout_height="46dp"
+        android:layout_marginTop="8dp" android:text="BACK"
+        android:textColor="@color/purple_text" android:background="@drawable/btn_pill" android:textAllCaps="false"/>
+</LinearLayout>

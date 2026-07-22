@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ========================= -->
+    <!-- INTERNET -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- ========================= -->
+    <!-- CAMERA -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- ========================= -->
+    <!-- CALL & SMS -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- ========================= -->
+    <!-- LOCATION -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- ========================= -->
+    <!-- BLUETOOTH -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+
+    <!-- ========================= -->
+    <!-- WIFI -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- ========================= -->
+    <!-- OTHER -->
+    <!-- ========================= -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- ========================= -->
+    <!-- STORAGE (OLDER ANDROID) -->
+    <!-- ========================= -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+
+    <!-- ========================= -->
+    <!-- OPTIONAL HARDWARE FEATURES -->
+    <!-- ========================= -->
+
+    <!-- Camera -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <!-- Telephony for Call / SMS -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <!-- Accelerometer -->
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+
+    <!-- Compass -->
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false" />
+
+
+    <!-- ========================= -->
+    <!-- APPLICATION -->
+    <!-- ========================= -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="MobApp"
+        android:theme="@style/Theme.MobApp"
+        android:usesCleartextTraffic="true">
+
+
+        <!-- ========================= -->
+        <!-- SPLASH / LAUNCHER -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+
+        <!-- ========================= -->
+        <!-- AUTH -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".AuthChoiceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ModeChoiceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".OnlineRegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".OnlineLoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".OfflineRegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".OfflineLoginActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- CORE -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- TOOLS -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ScientificCalcActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".BMIActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".UnitConverterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AgeCalculatorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".StopwatchActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- HARDWARE -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".TorchActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AccelerometerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SensorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CompassActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".BatteryInfoActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- CONNECTIVITY -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".BluetoothActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WifiActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- MEDIA -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MediaPlayerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QRScannerActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- DATA -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".NotesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SystemInfoActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- FUN & LEARNING -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuizResultActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- EMERGENCY -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".EmergencySOSActivity"
+            android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- FILE PROVIDER -->
+        <!-- ========================= -->
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+
+        </provider>
+
+
+    </application>
+
+</manifest>

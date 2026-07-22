@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark" android:gravity="center" android:orientation="vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="MobApp" android:textColor="@color/white"
+        android:textSize="44sp" android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="Mobile Services Platform"
+        android:textColor="@color/grey_hint" android:textSize="15sp"/>
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" android:indeterminateTint="@color/accent"/>
+</LinearLayout>

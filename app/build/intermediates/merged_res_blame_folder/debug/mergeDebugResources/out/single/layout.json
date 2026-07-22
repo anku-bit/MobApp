@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_video_player.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_video_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_age_calculator.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_age_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_online_login.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_online_login.xml"
+    },
+    {
+        "merged": "com.example.mobapp-mergeDebugResources-54:/layout/activity_accelerometer.xml",
+        "source": "com.example.mobapp-main-57:/layout/activity_accelerometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_wifi.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_wifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_sensor.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_sensor.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_qr_scanner.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_qr_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_calculator.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_torch.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_torch.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_accelerometer.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_accelerometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_online_register.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_online_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_stopwatch.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_stopwatch.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_offline_register.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_offline_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_mode_choice.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_mode_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_bmi.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_bmi.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_emergency_sosactivity.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_emergency_sosactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_bluetooth.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_auth_choice.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_auth_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_media_player.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_media_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_quiz.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_battery_info.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_battery_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_quiz_result.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_quiz_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_notes.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_offline_login.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_offline_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_system_info.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_system_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_unit_converter.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_unit_converter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_compass.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_compass.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-mergeDebugResources-54:\\layout\\activity_scientific_calc.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.11.1\\com.example.mobapp-main-57:\\layout\\activity_scientific_calc.xml"
+    }
+]

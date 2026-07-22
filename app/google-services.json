@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1024783409930",
+    "project_id": "mobapp-74da8",
+    "storage_bucket": "mobapp-74da8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024783409930:android:d6c021d0bae81705d1d0f3",
+        "android_client_info": {
+          "package_name": "com.example.mobapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTCytl1RVk3Xmks8aqDHl2ASYuxx4lvoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

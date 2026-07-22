@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📶 WiFi Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- WiFi Information -->
+    <TextView
+        android:id="@+id/tvWifiInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checking WiFi Status..."
+        android:textColor="@color/grey_hint"
+        android:textSize="15sp"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- WiFi ON Button -->
+    <Button
+        android:id="@+id/btnWifiOn"
+        android:layout_width="220dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:text="📶 WIFI ON"
+        android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill"
+        android:layout_marginBottom="12dp" />
+
+    <!-- WiFi OFF Button -->
+    <Button
+        android:id="@+id/btnWifiOff"
+        android:layout_width="220dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:text="📵 WIFI OFF"
+        android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill"
+        android:layout_marginBottom="12dp" />
+
+    <!-- WiFi Settings Button -->
+    <Button
+        android:id="@+id/btnWifiSettings"
+        android:layout_width="220dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:text="⚙ WIFI SETTINGS"
+        android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="BACK"
+        android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp" android:height="220dp"
+    android:viewportWidth="220" android:viewportHeight="220">
+    <!-- Outer circle -->
+    <path android:fillColor="#1F1B2E" android:strokeColor="#C9B6F8" android:strokeWidth="4"
+        android:pathData="M110,10 A100,100 0 1,1 109.99,10 Z"/>
+    <!-- N marker -->
+    <path android:fillColor="#E74C3C"
+        android:pathData="M105,20 L115,20 L115,50 L110,45 L105,50 Z"/>
+    <!-- S marker -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M105,170 L115,170 L115,200 L110,205 L105,200 Z"/>
+    <!-- E marker -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M170,105 L200,105 L205,110 L200,115 L170,115 Z"/>
+    <!-- W marker -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M20,105 L50,105 L50,115 L20,115 L15,110 Z"/>
+    <!-- Center dot -->
+    <path android:fillColor="#C9B6F8"
+        android:pathData="M110,103 A7,7 0 1,1 109.99,103 Z"/>
+    <!-- N label -->
+    <path android:fillColor="#E74C3C" android:strokeWidth="0"
+        android:pathData="M106,62 L108,62 L112,70 L112,62 L114,62 L114,76 L112,76 L108,68 L108,76 L106,76 Z"/>
+    <!-- Tick marks -->
+    <path android:fillColor="#C9B6F8" android:strokeColor="#C9B6F8" android:strokeWidth="2"
+        android:pathData="M110,18 L110,28 M110,192 L110,202 M18,110 L28,110 M192,110 L202,110"/>
+</vector>

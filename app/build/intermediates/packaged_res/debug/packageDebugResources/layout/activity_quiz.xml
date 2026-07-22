@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark" android:orientation="vertical" android:padding="20dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginBottom="8dp">
+        <TextView android:id="@+id/tvQNo" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Question 1/20"
+            android:textColor="@color/grey_hint" android:textSize="13sp"/>
+        <TextView android:id="@+id/tvScore" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Score: 0" android:textColor="@color/accent" android:textSize="13sp" android:textStyle="bold"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/pbQuiz"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent" android:layout_height="6dp"
+        android:max="20" android:progress="1"
+        android:progressTint="@color/accent" android:progressBackgroundTint="#2A2A3E"
+        android:layout_marginBottom="20dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="❓" android:textSize="32sp" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/tvQuestion" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="@drawable/bg_card"
+        android:textColor="@color/white" android:textSize="16sp"
+        android:padding="16dp" android:lineSpacingExtra="4dp" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/btnOpt1" android:layout_width="match_parent" android:layout_height="54dp"
+        android:layout_marginBottom="10dp" android:background="@drawable/btn_pill"
+        android:textColor="@color/purple_text" android:textAllCaps="false" android:textSize="14sp"/>
+    <Button android:id="@+id/btnOpt2" android:layout_width="match_parent" android:layout_height="54dp"
+        android:layout_marginBottom="10dp" android:background="@drawable/btn_pill"
+        android:textColor="@color/purple_text" android:textAllCaps="false" android:textSize="14sp"/>
+    <Button android:id="@+id/btnOpt3" android:layout_width="match_parent" android:layout_height="54dp"
+        android:layout_marginBottom="10dp" android:background="@drawable/btn_pill"
+        android:textColor="@color/purple_text" android:textAllCaps="false" android:textSize="14sp"/>
+    <Button android:id="@+id/btnOpt4" android:layout_width="match_parent" android:layout_height="54dp"
+        android:layout_marginBottom="10dp" android:background="@drawable/btn_pill"
+        android:textColor="@color/purple_text" android:textAllCaps="false" android:textSize="14sp"/>
+    <Button android:id="@+id/btnBack" android:layout_width="match_parent" android:layout_height="46dp"
+        android:text="Exit Quiz" android:textColor="@color/grey_hint"
+        android:background="@color/bg_dark" android:textAllCaps="false"/>
+</LinearLayout>

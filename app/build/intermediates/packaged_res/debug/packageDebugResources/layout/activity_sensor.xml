@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌡️ Device Sensors"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 Shake Phone → Torch ON/OFF&#10;✋ Cover Proximity Sensor → Music ON/OFF"
+        android:textColor="@color/grey_hint"
+        android:textSize="15sp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Current Status -->
+    <TextView
+        android:id="@+id/tvSensorStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔦 Torch: OFF&#10;🎵 Music: OFF"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/btn_pill"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Available Sensors Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Device Sensors"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Sensor List -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvSensors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading sensors..."
+            android:textColor="@color/grey_hint"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:padding="8dp" />
+
+    </ScrollView>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="BACK"
+        android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill" />
+
+</LinearLayout>

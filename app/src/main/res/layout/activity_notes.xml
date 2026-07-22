@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark" android:orientation="vertical" android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="12dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="📝 My Notes" android:textColor="@color/white"
+            android:textSize="20sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvNoteCount" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="0 note(s)"
+            android:textColor="@color/grey_hint" android:textSize="12sp"/>
+    </LinearLayout>
+    <EditText android:id="@+id/etNote" android:layout_width="match_parent" android:layout_height="100dp"
+        android:background="@drawable/bg_card" android:gravity="top|start"
+        android:hint="Write your note here…" android:textColorHint="@color/grey_hint"
+        android:textColor="@color/white" android:padding="12dp"
+        android:inputType="textMultiLine" android:layout_marginBottom="10dp"/>
+    <Button android:id="@+id/btnAddNote" android:layout_width="match_parent" android:layout_height="50dp"
+        android:text="＋ ADD NOTE" android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill" android:textAllCaps="false" android:layout_marginBottom="12dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="💡 Long press to delete a note"
+        android:textColor="@color/grey_hint" android:textSize="11sp" android:layout_marginBottom="8dp"/>
+    <ListView android:id="@+id/lvNotes" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
+        android:dividerHeight="1dp" android:listSelector="#2A2A3E"/>
+    <Button android:id="@+id/btnBack" android:layout_width="match_parent" android:layout_height="48dp"
+        android:layout_marginTop="10dp" android:text="BACK"
+        android:textColor="@color/purple_text" android:background="@drawable/btn_pill" android:textAllCaps="false"/>
+</LinearLayout>

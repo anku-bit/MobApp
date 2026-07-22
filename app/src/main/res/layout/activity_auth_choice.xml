@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_dark" android:gravity="center" android:orientation="vertical" android:padding="24dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="MobApp" android:textColor="@color/white"
+        android:textSize="36sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Mobile Services Platform" android:textColor="@color/grey_hint"
+        android:textSize="14sp" android:layout_marginBottom="60dp"/>
+    <Button android:id="@+id/btnLogin" android:layout_width="260dp" android:layout_height="56dp"
+        android:text="CLICK FOR LOGIN" android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill" android:layout_marginBottom="24dp"/>
+    <Button android:id="@+id/btnRegister" android:layout_width="260dp" android:layout_height="56dp"
+        android:text="CLICK FOR REGISTER" android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill"/>
+</LinearLayout>

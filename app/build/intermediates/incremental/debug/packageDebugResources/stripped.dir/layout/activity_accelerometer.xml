@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- ========================= -->
+    <!-- TITLE -->
+    <!-- ========================= -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📐 Smart Accelerometer"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp" />
+
+
+    <!-- ========================= -->
+    <!-- DESCRIPTION -->
+    <!-- ========================= -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control features using your phone sensors"
+        android:textColor="@color/grey_hint"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp" />
+
+
+    <!-- ========================= -->
+    <!-- SHAKE / TORCH -->
+    <!-- ========================= -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 SHAKE CONTROL"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvShakeStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔦 Torch: OFF&#10;📱 Shake phone to turn ON"
+        android:textColor="@color/accent"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/bg_card"
+        android:layout_marginBottom="18dp" />
+
+
+    <!-- ========================= -->
+    <!-- PROXIMITY / MUSIC -->
+    <!-- ========================= -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✋ PROXIMITY CONTROL"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvMusicStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎵 Music: OFF&#10;✋ Cover proximity sensor to play"
+        android:textColor="@color/accent"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/bg_card"
+        android:layout_marginBottom="18dp" />
+
+
+    <!-- ========================= -->
+    <!-- TILT DETECTION -->
+    <!-- ========================= -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="↔️ TILT DETECTION"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvTiltStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 Phone Straight"
+        android:textColor="@color/accent"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@drawable/bg_card"
+        android:layout_marginBottom="18dp" />
+
+
+    <!-- ========================= -->
+    <!-- MOVEMENT DETECTION -->
+    <!-- ========================= -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏃 MOVEMENT DETECTION"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvMovementStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛑 Movement: STATIONARY"
+        android:textColor="@color/accent"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@drawable/bg_card"
+        android:layout_marginBottom="25dp" />
+
+
+    <!-- ========================= -->
+    <!-- BACK BUTTON -->
+    <!-- ========================= -->
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:text="BACK"
+        android:textColor="@color/purple_text"
+        android:background="@drawable/btn_pill" />
+
+</LinearLayout>
